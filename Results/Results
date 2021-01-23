@@ -1,0 +1,82 @@
+w/o prim:
+    default:
+        train:
+            Sent-Level Acc: 0.9999
+            Average Precision: 1.0
+            Average Recall: 1.0
+            Average F1: 1.0
+            BLEU: 1.0
+        val:
+            Sent-Level Acc: 0.9992
+            Average Precision: 1.0
+            Average Recall: 1.0
+            Average F1: 1.0
+            BLEU: 0.9999
+        test:
+            Sent-Level Acc: 0.0
+            Average Precision: 0.6529
+            Average Recall: 0.7504
+            Average F1: 0.6898
+            Primitive Precision: 0.0
+            Primitive Recall: 0.0
+            Primitive F1: 0.0
+            BLEU: 0.8406
+
+w/ prim:
+    default:
+        train:
+            Sent-Level Acc: 1.0
+            Average Precision: 1.0
+            Average Recall: 1.0
+            Average F1: 1.0
+            Primitive Precision: 1.0
+            Primitive Recall: 1.0
+            Primitive F1: 1.0
+            BLEU: 1.0
+        val:
+            Sent-Level Acc: 1.0
+            Average Precision: 1.0
+            Average Recall: 1.0
+            Average F1: 1.0
+            Primitive Precision: 1.0
+            Primitive Recall: 1.0
+            Primitive F1: 1.0
+            BLEU: 1.0
+        test:
+            Sent-Level Acc: 0.0017
+            Average Precision: 0.6536
+            Average Recall: 0.8472
+            Average F1: 0.7294
+            Primitive Precision: 1.0
+            Primitive Recall: 0.0038
+            Primitive F1: 0.0075
+            BLEU: 0.8142
+
+    default w/ GloVe 300d:
+        train:
+            Sent-Level Acc: 1.0
+            Average Precision: 1.0
+            Average Recall: 1.0
+            Average F1: 1.0
+            Primitive Precision: 1.0
+            Primitive Recall: 1.0
+            Primitive F1: 1.0
+            BLEU: 1.0
+        val:
+            Sent-Level Acc: 0.9993
+            Average Precision: 1.0
+            Average Recall: 1.0
+            Average F1: 1.0
+            Primitive Precision: 1.0
+            Primitive Recall: 1.0
+            Primitive F1: 1.0
+            BLEU: 0.9997
+        test:
+            Sent-Level Acc: 0.0099
+            Average Precision: 0.6538
+            Average Recall: 0.9179
+            Average F1: 0.7559
+            Primitive Precision: 1.0
+            Primitive Recall: 0.0154
+            Primitive F1: 0.0304
+            BLEU: 0.7902

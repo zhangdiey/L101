@@ -1,0 +1,25 @@
+# default_train.yaml
+
+# Data
+# Corpus opts:
+data:
+    corpus_1:
+        path_src: scan_data/src_train_np.txt
+        path_tgt: scan_data/tgt_train_np.txt
+    valid:
+        path_src: scan_data/src_val_np.txt
+        path_tgt: scan_data/tgt_val_np.txt
+
+# Vocabulary files
+src_vocab: scan_data/runnp/scan.np.vocab.src
+tgt_vocab: scan_data/runnp/scan.np.vocab.tgt
+
+# Train on a single GPU
+world_size: 1
+gpu_ranks: [0]
+
+# Where to save the checkpoints
+save_model: models/default_np
+save_checkpoint_steps: 500
+train_steps: 5000
+valid_steps: 500

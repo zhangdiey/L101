@@ -1,0 +1,18 @@
+# scan.yaml
+
+## Where the samples will be written
+save_data: scan_data/runnp/scan
+## Where the vocab(s) will be written
+src_vocab: scan_data/runnp/scan.np.vocab.src
+tgt_vocab: scan_data/runnp/scan.np.vocab.tgt
+# Prevent overwriting existing files in the folder
+overwrite: False
+
+# Corpus opts:
+data:
+    corpus_1:
+        path_src: scan_data/src_train_np.txt
+        path_tgt: scan_data/tgt_train_np.txt
+    valid:
+        path_src: scan_data/src_val_np.txt
+        path_tgt: scan_data/tgt_val_np.txt

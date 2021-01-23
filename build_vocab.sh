@@ -1,0 +1,1 @@
+onmt_build_vocab -config scan.yaml -n_sample -1

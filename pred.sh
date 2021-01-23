@@ -1,0 +1,1 @@
+onmt_translate -model $1 -src $2 -output $3 -gpu 0 -verbose
